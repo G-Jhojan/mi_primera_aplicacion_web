@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:mi_primera_pagina_web/providers/page_provider.dart';
+//import 'package:mi_primera_pagina_web/providers/page_provider.dart';
 import 'package:mi_primera_pagina_web/ui/shared/custom_app_menu.dart';
 import 'package:mi_primera_pagina_web/ui/views/about_view.dart';
 import 'package:mi_primera_pagina_web/ui/views/contact_view.dart';
@@ -52,10 +52,10 @@ class _HomeBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-     final pageProvider = Provider.of<PageProvider>(context, listen: false);
+     //final pageProvider = Provider.of<PageProvider>(context, listen: false);
 
     return PageView(
-    controller:pageProvider.scrollController ,
+    //controller:pageProvider.scrollController ,
      scrollDirection: Axis.vertical,
       children: const [
         HomeView(),

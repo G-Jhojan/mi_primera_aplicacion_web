@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:mi_primera_pagina_web/routers/router.dart';
 import 'package:provider/provider.dart';
 
-import 'providers/page_provider.dart';
+
 
 
 void main() => runApp(const MyApp());
@@ -15,7 +15,7 @@ class AppState extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
     providers: [
-      ChangeNotifierProvider(create: (_) => PageProvider()),
+      ChangeNotifierProvider(create: (_){}),
     ],
     child: const MyApp(),
 
